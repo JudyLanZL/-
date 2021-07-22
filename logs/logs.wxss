@@ -1,0 +1,8 @@
+/* pages/logs/logs.wxss */
+.headshot{
+  width: 134rpx;
+  height: 133rpx;
+  background-position-x: 131;
+  background-position-y: 139;
+  overflow: hidden;
+}
