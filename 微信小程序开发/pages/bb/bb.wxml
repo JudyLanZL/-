@@ -1,0 +1,29 @@
+<!--pages/bb.wxml-->
+
+<view class="background">
+<view class="top"> <text>1</text></view>
+<view class="mid"> <text>2</text></view>
+<view class="low"> <text>3</text></view>
+
+</view>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  

@@ -1,0 +1,190 @@
+/* pages/person.wxss */
+.background
+{
+background-color: ghostwhite;
+font-size: medium;
+
+
+}
+.top
+{ 
+  border-top: 0;
+height: 80rpx ;
+border-bottom: #ECECEC;
+  border-bottom-style:solid;
+  border-bottom-width: 7rpx;
+width: 100%;
+background-color: ghostwhite;
+font-size: medium;
+display:flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+
+}
+.heart
+{
+  margin-top: 10rpx;
+ padding-bottom: 100rpx;
+  border-bottom: #ECECEC;
+  border-bottom-style:solid;
+  border-bottom-width: 7rpx;
+  height: 340rpx;
+  width: 100%;
+  background-color: ghostwhite;
+font-size: medium;
+display:flex;
+flex-direction:column;
+justify-content:center;
+
+}
+.low
+{
+  
+  margin-top: 10rpx;
+  height: 300rpxrpx;
+ 
+  width: 100%;
+  background-color: ghostwhite;
+font-size: medium;
+display:flex;
+flex-direction:column;
+justify-content: center;
+
+
+}
+.top1
+{
+  width :250rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: left;
+  
+}
+.top2
+{
+  width :250rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+.top3
+{
+  width :250rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: right;
+  
+}
+.ima{
+  width:60rpx;
+  height: 60rpx;
+}
+.headima{
+  width:160rpx;
+  height: 160rpx;
+}
+.heart1{
+  width: 100%;
+  height: 260rpx;
+  background-color: ghostwhite;
+  font-size: medium;
+  display:flex;
+  flex-direction: row;
+  justify-content:left;
+  align-items: center;
+  
+
+}
+.heart2{
+  width: 100%;
+  height: 80rpx;
+  background-color: ghostwhite;
+  font-size: medium;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+}
+.heart11
+{
+  width :250rpx;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+.heart12{
+  width :500rpx;
+
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+  justify-content: left;
+}
+.heart121{
+  left: 0;
+  right: 0;
+  height: 130rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: left;
+}
+.heart122{
+  left: 0;
+  right: 0;
+  height: 130rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: left;
+}
+.low1
+{
+height:  80rpx;
+width: 100%;
+
+background-color: ghostwhite;
+font-size:medium;
+display:flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+
+margin-top: 15rpx;
+margin-left: 30rpx;
+padding-bottom: 15rpx;
+border-bottom: #ECECEC;
+  border-bottom-style:solid;
+  border-bottom-width: 7rpx;
+
+}
+.lowL{
+  width :1200rpx;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  
+}
+.lowR{
+  width :250rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: right;
+}
+.imax
+{
+  width:40rpx;
+  height:40rpx
+}
