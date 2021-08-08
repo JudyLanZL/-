@@ -1,0 +1,23 @@
+/* pages/bottom/bottom.wxss */
+.backgroundb{
+  background-color:white ;
+  width: 750rpx;
+  height: 105rpx;
+  position:fixed;
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  bottom: 0rpx;
+}
+.bottom{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 250rpx;
+}
+.imab{
+  width: 60rpx;
+  height: 60rpx;
+}

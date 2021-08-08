@@ -1,0 +1,13 @@
+<!--pages/top/top.wxml-->
+<view class="backgroundt">
+      <view class="left">
+      <image src="/images/指向-left.png" class="imas" bindtap="return"></image>
+      </view>
+      <view class="middle">
+      <image src="/images/视频.png" class="ima"></image>
+      </view>
+      <view class="right">
+        <image src="/images/省略号.png" class="imas" bindtap="more"></image>
+      </view>
+</view>
+

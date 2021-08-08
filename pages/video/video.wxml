@@ -1,0 +1,64 @@
+<!--pages/video/video.wxml-->
+<include src="/pages/top/top.wxml"/>
+<scroll-view class="scroll" scroll-y="true">
+<view class="swiper-container">
+<swiper class='swiper_box' indicator-dots='{{indicatorDots}}' autoplay='{{autoplay}}' circular='{{circular}}' indicator-color='#fff000' indicator-active-color='#ff0000'>
+ <block wx:for="{{images}}" wx:key="id"> 
+ <swiper-item> 
+<image class='image_banner' src='/images/{{item}}'></image> 
+</swiper-item> 
+ </block> 
+</swiper>
+</view>
+
+<view class="second">
+    <view class="top">
+    <image src="/images/放大镜.png" class="charu"></image>
+      <input class="input" auto-focus placeholder="搜索"/>
+    </view>
+    <view class="mid">
+    <view class="yellow"> <text style="font-size:40rpx">视频推荐</text></view>
+    <view > <text style="font-size:35rpx; color:blue">排序方式</text></view>
+    <image src="/images/菜单2.png" class="imar"></image>
+    </view>
+    <view class="end">
+        <view class="a">
+            <text>综合</text>
+            <image src="/images/指向-bottom.png" class="png"></image>
+            </view>
+        <view class="b">
+          <text>热度</text>
+        </view>
+        <view class="c">
+          <text>时间</text>
+            <view class="h">
+            <image src="/images/指向-指示器上.png" class="png2"></image>
+            <image src="/images/指向-指示器下.png" class="png2"></image>
+            </view>
+        </view>
+        <view class="d">
+          <text  style="font-size:35rpx">筛选</text>
+          <image src="/images/漏斗.png" class="png"></image>
+        </view>
+    </view>
+</view>
+
+<block wx:for="{{list}}">
+    <view class="wj">
+     
+          <view><image src="/images/真实视频.png" class="bigpng"></image></view>
+          <view class="last">
+            <view class="last1"> 
+                <image src="/images/like.png" class="midpng"></image>
+                <text >{{item.shoucang}}</text>
+            </view>
+            <view  class="last2">
+               <image src="/images/点赞 .png" class="midpng"  ></image>
+               <text >{{item.dianzan}}</text>
+            </view>
+           </view>
+   </view>
+</block>
+</scroll-view>
+
+<include src="/pages/bottom/bottom.wxml"/>

@@ -1,0 +1,219 @@
+/* pages/video/video.wxss */
+@import"/pages/top/top.wxss";
+@import"/pages/bottom/bottom.wxss";
+
+page {
+  background-color: #F8F8F8;
+  height: 100%;
+  font-size: 32rpx;
+  line-height: 1.6;
+}
+.swiper-container{
+  height: 360rpx;
+  widows: 750rpx;
+
+}
+.image_banner{
+   position: relative;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  color: #FFFFFF;
+  font-size: 36rpx;
+}
+.image_banner:before{ 
+  display: block;
+  top:50%;
+  left:50%
+  }
+  .second{
+    height:350rpx;
+    width: 750rpx;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+  }
+  .top{
+    height:100rpx;
+    width: 160rpx;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 25rpx;
+    margin-right: 25rpx;
+    margin-top: 10rpx;
+    border-radius: 20rpx;
+    border-top-color:gainsboro;
+    border-top-style: solid;
+    border-bottom-color:gainsboro;
+    border-bottom-style: solid;
+    border-left-color:gainsboro;
+    border-left-style: solid;
+    border-right-color:gainsboro;
+    border-right-style: solid;
+    padding-left: 250rpx;
+    padding-right: 250rpx;
+
+  }
+  .charu{
+    display:inline-block;
+    width: 60rpx;
+    height: 60rpx;
+  }
+.input{
+  width: 100rpx;
+  display:inline-block;
+}
+.mid{
+  height:100rpx;
+  width: 680rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  margin-left: 35rpx;
+  margin-right: 35rpx;
+  margin-top: 10rpx;
+
+}
+.yellow{
+  background-color:#F9F548 ;
+  border-radius: 10rpx;
+    border-top-color:gold;
+    border-top-style: solid;
+    border-bottom-color:gold;
+    border-bottom-style: solid;
+    border-left-color:gold;
+    border-left-style: solid;
+    border-right-color:gold;
+    border-right-style: solid;
+    width:200rpx;
+    height: 80rpx;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 180rpx;
+}
+.imar{
+  height: 90rpx;
+  width: 90rpx;
+  margin-right: 15rpx;
+  margin-left: 15rpx;
+}
+.end{
+  height:100rpx;
+  width: 680rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 35rpx;
+  margin-right: 35rpx;
+  margin-top: 10rpx;
+
+}
+.a{
+  width:100rpx;
+  height:100rpx;
+  margin-right: 20rpx;
+  display: flex;
+  flex-direction: row;
+  align-items:flex-start;
+
+}
+.b{
+  width:100rpx;
+  height:100rpx;
+  margin-right: 20rpx;
+}
+.c{
+  width:130rpx;
+  height:100rpx;
+  margin-right: 190rpx;
+  display: flex;
+  flex-direction: row;
+}
+.d{
+  width:100rpx;
+  height:100rpx;
+  margin-right: 20rpx;
+}
+.png{
+  margin-top: 12rpx;
+  width:30rpx;
+  height: 30rpx;
+}
+.png2{
+  width:30rpx;
+  height: 30rpx;
+}
+.h{
+  display: flex;
+  flex-direction:column;
+}
+.scroll{
+  height: 85%;
+  width: 750rpx;
+}
+.wj{
+  height: 350rpx;
+  width: 640rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding:10rpx;
+  margin-left: 40rpx;
+  margin-right:40rpx;
+  border-top-color:gainsboro;
+  border-top-style: solid;
+  border-top-width: 5rpx;
+   border-bottom-color:gainsboro;
+    border-bottom-style: solid;
+    border-bottom-width: 5rpx;
+    border-left-color:gainsboro;
+    border-left-style: solid;
+    border-left-width: 5rpx;
+    border-right-color:gainsboro;
+    border-right-style: solid;
+    border-right-width: 5rpx;
+  
+}
+.bigpng{
+  height: 240rpx;
+  width: 600rpx;
+}
+.last{
+  height: 80rpx;
+  width: 600rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+}
+.last1{
+    width:150rpx;
+    margin-left:250rpx ;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.last2{
+    width: 170rpx;
+    margin-left: 30rpx;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.midpng{
+  width: 50rpx;
+  height: 50rpx;
+  margin-right: 10rpx;
+}

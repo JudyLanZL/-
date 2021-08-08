@@ -1,0 +1,16 @@
+<!--pages/bottom/bottom.wxml-->
+
+<view class="backgroundb">
+    <view class="bottom" >
+    <image src="/images/房子.png" class="imab" bindtap="more"></image>
+    </view>
+    <view class="bottom" >
+      <image src="/images/菜单.png" class="imab" bindtap="more"></image>
+    </view>
+    <view class="bottom" >
+      <image src="/images/通讯录2.png" class="imab" bindtap="person"></image>
+    </view>
+
+
+
+</view>

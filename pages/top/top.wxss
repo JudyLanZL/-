@@ -1,0 +1,41 @@
+/* pages/top/top.wxss */
+.backgroundt{
+  background-color:white ;
+  width: 750rpx;
+  height: 100rpx;
+
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  top: 0rpx;
+}
+.left{
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 250rpx;
+}
+.middle{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 250rpx;
+}
+.right{
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  width: 250rpx;
+}
+.ima{
+  width: 85rpx;
+  height:85rpx;
+}
+.imas{
+  width: 60rpx;
+  height:60rpx ;
+}
